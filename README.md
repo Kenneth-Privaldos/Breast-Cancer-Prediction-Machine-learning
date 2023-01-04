@@ -11,10 +11,9 @@ The dataset we will use for this project is the Wisconsin Breast Cancer dataset,
 Before we can train our model, we will need to preprocess the data to handle missing values and convert non-numeric features into numeric ones. We will also split the dataset into training and testing sets to evaluate the performance of our model.
 
 # Training
-Next, we will train our XGBoost model on the training data. We will tune the hyperparameters of the model using cross-validation to find the optimal set of parameters that gives the best performance.
-
+Next, we will train our XGBoost model on the training data. We also trained the data using SVM to compare the performance. 
 # Evaluation
-After training the model, we will evaluate its performance on the testing data. We will use various metrics such as precision, recall, and F1 score to assess the quality of the model's predictions.
+After training the model, we will evaluate its performance on the testing data. We will use various metrics such as precision, recall, and F1 score to assess the quality of the model's predictions. We will also use cross validation and Stratified KFold to evalute the model and calculate the Average accuracy.
 
 # Conclusion
 In this project, we built a machine learning model to predict whether a breast cancer tumor is benign or malignant using the XGBoost algorithm. We preprocessed the data, trained the model, and evaluated its performance on the testing data. With the appropriate parameters and evaluation metrics, we were able to achieve good results and improve the chances of successful treatment for breast cancer patients.
